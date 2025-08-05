@@ -16,7 +16,7 @@ from langchain.prompts import PromptTemplate
 #openai_api_key = os.getenv("OPENAI_API_KEY")
 
 #For streamlit deployment
-openai_key_key = os.environ["OPENAI_API_KEY"]
+openai_api_key = os.environ["OPENAI_API_KEY"]
 VECTOR_DIR = "kb_store"
 
 # Fuzzy date query handling
