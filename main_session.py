@@ -141,8 +141,8 @@ Answer:"""
             full_query = f"{chat_context}\nUser: {query}\nAI:"
 
             with st.spinner("🤔 Thinking..."):
-                response = qa_chain.run(full_query)
-
+                #response = qa_chain.run(full_query)
+                response = qa_chain.invoke({"query": full_query})
             st.session_state.chat_history.append(("user", query))
             st.session_state.chat_history.append(("bot", response))
 
