@@ -11,8 +11,11 @@ from langchain.prompts import PromptTemplate
 
 # Load environment variables
 load_dotenv()
-openai_api_key = os.getenv("OPENAI_API_KEY")
+#For Local deployment
+#openai_api_key = os.getenv("OPENAI_API_KEY")
 
+#For streamlit deployment
+openai_key = os.environ["OPENAI_API_KEY"]
 VECTOR_DIR = "kb_store"
 
 # Fuzzy date query handling
