@@ -73,5 +73,5 @@ Answer:"""
         if query:
             enriched_query = parse_date_keywords(query)
             with st.spinner("🤔 Thinking..."):
-                response = qa_chain.run(enriched_query)
+                response = qa_chain.invoke({"query": enriched_query})
                 st.success(response)
