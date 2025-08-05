@@ -1,9 +1,10 @@
 streamlit
-python-dotenv
-PyMuPDF
-pytesseract
-pdf2image
-Pillow
 openai
 langchain
+langchain-community
 faiss-cpu
+PyMuPDF
+pdf2image
+pytesseract
+Pillow
+python-dotenv
