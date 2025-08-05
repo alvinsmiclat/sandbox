@@ -10,7 +10,8 @@ from langchain.chains import RetrievalQA
 from langchain.prompts import PromptTemplate
 
 # Load environment variables
-load_dotenv()
+#load_dotenv()
+
 #For Local deployment
 #openai_api_key = os.getenv("OPENAI_API_KEY")
 
